@@ -10,7 +10,11 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', async () => {
     await page.navigateTo();
+<<<<<<< HEAD
     expect(await page.getTitleText()).toEqual('FE-TASKS app is running!');
+=======
+    expect(await page.getTitleText()).toEqual('task1 app is running!');
+>>>>>>> 4104ca0290090217609b94e26383c84a669c51b1
   });
 
   afterEach(async () => {

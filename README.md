@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # FETASKS
+=======
+# Task1
+>>>>>>> 4104ca0290090217609b94e26383c84a669c51b1
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
 
