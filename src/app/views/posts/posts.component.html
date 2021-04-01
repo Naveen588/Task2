@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header"></div>
+                <div class="card-body">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>userId</th>
+                                <th>id</th>
+                                <th>title</th>
+                                <th>body</th>
+                            
+                            </tr>                            
+                        </thead>
+                        <tbody>
+                            <tr *ngFor='let data1 of data'>
+                                <td>{{data1.userId}}</td>
+                                <td>{{data1.id}}</td>
+                                <td>{{data1.title}}</td>
+                                <td>{{data1.body}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
