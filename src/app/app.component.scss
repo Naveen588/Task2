@@ -1,0 +1,16 @@
+table, th, td {
+    border: 1px solid rgb(238, 107, 107);
+}
+// <style>
+// table, th, td {
+//   border: 1px solid black;
+// }
+// </style>
+h1 {
+    // width: 250px;
+    background-color: red;
+    max-width: 7ch;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

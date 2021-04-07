@@ -22,18 +22,15 @@ export class PostsComponent implements OnInit {
         let result = res;
         this.data = result;
 
-        this.data.forEach((post: any) => {
-          if (post.body?.length >= 150) {
-            post.body = post.body.slice(0, 149) + '...';
-          }
-          if (post.title?.length >= 150) {
-            post.title = post.title.slice(0, 149) + '...';
-          }
-        });
+        // this.data.forEach((post: any) => {
+        //   if (post.body?.length >= 150) {
+        //     post.body = post.body.slice(0, 149) + '...';
+        //   }
+        //   if (post.title?.length >= 150) {
+        //     post.title = post.title.slice(0, 149) + '...';
+        //   }
+        // });
       }
     });
-    //
-
-    // if(this.data.body)
   }
 }

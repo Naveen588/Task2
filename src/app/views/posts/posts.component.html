@@ -1,17 +1,10 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12" >
-            <div class="card">
-                <div class="card-header"></div>
+            <div class="card" >
                 <div class="card-body">
-                    <meta charset="utf-8">
-                    <meta name="viewport" content="width=device-width, initial-scale=1">
-                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-                    
-                    <table class="table table-bordered">
-                        <thead class="p-3 mb-2 bg-primary text-white">
+                    <table class="table">
+                        <thead>
                             <tr>
                                 <th>userId</th>
                                 <th>id</th>
@@ -22,7 +15,7 @@
                         </thead>
                         <tbody>
                             <tr *ngFor='let data1 of data'>
-                                <td>{{data1.userId}}</td>
+                                <td >{{data1.userId}}</td>
                                 <td>{{data1.id}}</td>
                                 <td>{{data1.title}}</td>
                                 <td>{{data1.body}}</td>

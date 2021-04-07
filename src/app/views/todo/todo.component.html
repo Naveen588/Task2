@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header"></div>
+                <div class="card-body">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>UserId</th>
+                                <th>Id</th>
+                                <th>Title</th>
+                                <th>Action</th>
+                                <th>Completed</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let data of todos">
+                                <td>{{data.userId}}</td>
+                                <td>{{data.id}}</td>
+                                <td>{{data.title}}</td>
+                                <td><span class="badge bg-{{data.completed? 'success' : 'warning'}}">{{data.completed? 'Completed' : 'Pending'}}</span></td>
+                                <td><input type="checkbox" [checked]="data.completed"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
