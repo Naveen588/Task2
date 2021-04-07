@@ -1,5 +1,21 @@
-.col-md-12 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // width: 100vw;
+  // height: 100vh;
+}
+
+
+
+
+table {
+  width:100%;
+}
+
+td:last-child{
+  max-width: 150ch;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
 }
